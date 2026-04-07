@@ -246,8 +246,12 @@
 # print(count)
 
 
-arr=[1,2,3,4]
-arr1=[]
-i=0
+
+
+arr = [1,2,3,4,]
 for i in arr:
-    print(i*i+1)
+    if i==i:
+        continue
+    else:
+        i*i+1
+        print(i)
